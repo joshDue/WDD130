@@ -1,0 +1,21 @@
+body {
+    background-color: purple;
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    background-color: aqua;
+    padding: 30px;
+    border: 100px inset lime;
+    margin:0 auto;
+    border-radius: 50px;
+    color: red;
+    max-width: 708%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 5fr 8fr;
+}
