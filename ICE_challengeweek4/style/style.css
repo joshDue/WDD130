@@ -1,0 +1,24 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(54, 50, 50);
+    padding: 60px;
+    
+}
+
+#top-image {
+    width: 100%;
+
+}
+
+.grid-container div img {
+    border-radius: 300px;
+    width: 60%;
+    margin: auto;
+    display: block; 
+    border: 20px solid rgb(31, 31, 31);
+    
+    
+
+}
+
