@@ -1,0 +1,46 @@
+.font {
+    font-size: 2em;
+}
+
+.first {
+    margin: 20px 50px;
+}
+
+.second{
+    font-size: 3em;
+    background-color: blue;
+    text-align: center;
+    color: white;
+
+}
+
+.float {
+    
+    padding: 15px;
+    margin: 50px;
+    background-color: gray;
+    border-radius: 100px;
+    background-size: 100%;
+    border: 2px solid black;
+    /* max-width: max-content; */
+    font-size: 2em;
+
+
+}
+
+.title {
+    color:  orange;
+}
+
+.description {
+    margin: right;
+    color: purple;
+
+
+}
+
+#image {
+    padding: 15px black;
+    float: right;
+
+}
