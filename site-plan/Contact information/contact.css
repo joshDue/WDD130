@@ -1,0 +1,22 @@
+
+.everything {
+    color: antiquewhite;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+    font: 600px;
+}
+
+.contacts {
+    margin: auto;
+    color: antiquewhite;
+}
+#info {
+    margin: auto;
+    font: 400px;
+
+}
+
+:root {
+    background-color: black;
+}

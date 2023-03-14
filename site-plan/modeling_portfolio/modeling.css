@@ -1,0 +1,12 @@
+.entire {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.pictures {
+
+    width: 50%;
+    height: auto;
+    margin: left;
+    margin: right;
+    float: none;
+}
