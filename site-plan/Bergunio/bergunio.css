@@ -1,0 +1,21 @@
+.title {
+    background: red;
+    display: grid;
+    justify-content: center;
+    color: rgb(173, 126, 7);
+    
+}
+.what {
+    background: red;
+    display: grid;
+    justify-content: center;
+    color: rgb(173, 126, 7);
+}
+.pre {
+    display: grid;
+    justify-content: center;
+    background: red;
+    color: rgb(173, 126, 7);
+}
+
+
