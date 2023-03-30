@@ -1,7 +1,8 @@
-.backgroundImage {
+type = content-type [CI]
+.backgroundimage {
     width: 100%;
 }
-.backgroundImage img {
+.backgroundimage img {
     display: block;
     width: 100%;
 
@@ -52,42 +53,47 @@ nav {
   }
 .home-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 400px 400px;
-  width: 70%;
+  grid-template-columns: 45% 50% ;
+  grid-gap:2px;
+  /* grid-template-rows: 267px 267px; */
+  grid-template-rows: 18% 18%; 
+
+
+  width: 100%;
 }
 .home-grid img {
   width: 100%;
 }
 
-.home-grid{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 300px 300px;
-}
+
 .pic1 {
-  background-color: aqua;
-  grid-column: 0/1;
-  grid-row: 0/1; 
+  /* background-color: aqua; */
+  grid-column: 1/2;
+  grid-row: 1/2; 
+  width: 100%;
 }
 
 .pic2{
-  background-color: blue;
-  grid-column: 2/3;
+  /* background-color: blue; */
+  grid-column: 1/2;
   grid-row: 3/4; 
+  width: 100%;
 
 
  
 }
 
 .video{
-  background-color: brown;
+  /* background-color: brown; */
   grid-column: 2/3;
   grid-row: 1/3; 
-  width: 750px;
+  width: 100%;
+  /* background: url('./homepage_pictures/IMG_6477.mp4') */
+  
   
 }
 
-video{
+video {
   width: 100%;
 }
+
