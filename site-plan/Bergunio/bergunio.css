@@ -1,36 +1,144 @@
-body {
-    grid-template-columns: 1fr 1fr 1fr;
-    display: grid;
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Pacifico&family=Roboto:ital@1&display=swap');
+* {
+  margin: 0%;
+  padding: 0%;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+
+}
+div {
+  display: block;
+}
+.header {
+  display: grid;
+  grid-template-columns:200px 1fr;
+
+}
+nav a {
+  padding:1em;
+  text-decoration: none;
+  padding: 10px;
+  margin: auto;
+  color: white;
+
+}
+nav {
+  line-height: 5em;
+  text-align: center;
+  font-size: 1.2em;
+  list-style-type: none;
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  z-index: 2;
+}
+  /* .logo-container {
+    width: 100%;
+    display: flex;
+    height: 150px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo-container img {
+    width: 100%;
+    align-items: center;
+
+  } */
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+.main-logo {
+  width: 200px;
+  justify-items: center;
+  grid-row: 1;
+  grid-column: 1;
+}
+.pre-sale {
+
+  width:500px;
+  display: flex;
+  align-items: center;
+  grid-column: 2;
+  grid-row: 3;
+  
+  
 }
 
-.title {
-    background: red;
-    display: grid;
-    justify-content: center;
-    color: rgb(173, 126, 7);
-    
+.pre-sale img {
+  width: 80px;
+  margin-top: 60px;
+  z-index: 8;
+  
+
 }
-.what {
-    background: red;
-    display: grid;
-    justify-content: center;
-    color: rgb(173, 126, 7);
+.pre-sale p {
+  font-size: 30px;
+  font-family: 'Climate Crisis', cursive;
+  font-family: 'Pacifico', cursive;
+  
 }
-.pre {
-    display: grid;
-    /* justify-content: center; */
-    
-    background-color: #7e0d0d; /* Red */
-    /* border: none;
-    
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    grid-column: 1fr;*/
-} 
+.big-text{
+  grid-column: 2;
+  grid-row: 1;
+  z-index: 5;
+  font-family: 'Climate Crisis', cursive;
+  font-family: 'Pacifico', cursive;
+  align-self: center;
+  justify-self: center;
+}
+
+.big-photo {
+  background: url("./bigphoto.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  grid-column: 1/4;
+  grid-row: 1;
+  z-index: -1;
+}
+.big-text h4{
+  /* margin-top: 50px; */
+  font-size: 30px;
+  font-family: 'Climate Crisis', cursive;
+  font-family: 'Pacifico', cursive;
+  align-items: center;
+  justify-content: center;
+
+}
+.big-text h4 {
+  font-family: 'Climate Crisis', cursive;
+  font-family: 'Pacifico', cursive;
+  align-items: center;
+  justify-content: center;
 
 
+}
+footer img {
+  width: 50px;
+  margin-right: 10px;
+  border-radius: 25px;
 
+}
 
+footer {
+  background-color: rgb(224, 224, 224);
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.social {
+  display: flex;
+  
+}
+main{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}

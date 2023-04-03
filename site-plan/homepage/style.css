@@ -54,7 +54,7 @@ nav {
 .home-grid {
   display: grid;
   grid-template-columns: 45% 50% ;
-  grid-gap:2px;
+  grid-gap:1px;
   /* grid-template-rows: 267px 267px; */
   grid-template-rows: 18% 18%; 
 
